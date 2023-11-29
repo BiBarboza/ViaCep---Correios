@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloh1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#título{
+    font-family: sans-serif;
+    color: rgb(11, 12, 97);
+    margin-top: 5px;
+    margin-left: -5%;
+}
+
+#subtítulo{
+    font-family: sans-serif;
+    color: rgb(11, 12, 97);
+    margin-left: -5%;
+
+}
+
+fieldset{
+    border: 0;
+
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+body{
+    background-image: url(../images/correios.jpeg);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(223, 230, 131);
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+
+}
+
+.campo{
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(11, 12, 97);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-left: 1em;
+}
+
+.campo input[type="text"], .campo select{
+    padding: 0.2em;
+    border: 1px rgb(223, 230, 131);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus{
+    background: #E0E0F8;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(223, 230, 131);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    width: 100%;
+ }
+
+ form {
+    display: block;
+    width: 50%; 
+    justify-content: space-between;
+ }
